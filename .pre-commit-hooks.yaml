@@ -1,0 +1,6 @@
+- id: remove-if-present
+  name: "Remove specified files if they are present"
+  entry: remove-if-present
+  language: python
+  pass_filenames: false
+  always_run: true
