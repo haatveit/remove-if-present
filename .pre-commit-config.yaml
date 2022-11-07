@@ -45,3 +45,8 @@ repos:
       - id: pip-audit
         args: ["-r", "requirements.txt"]
         files: ^poetry.lock$
+  - repo: https://github.com/haatveit/remove-if-present
+    rev: v0.1.0
+    hooks:
+      - id: remove-if-present
+        args: ["requirements.txt"]
